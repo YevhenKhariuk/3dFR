@@ -1,0 +1,35 @@
+//--utils--
+
+// fonts
+@import './utils/fonts';
+
+// vars
+@import './utils/vars';
+
+// modern-normalize
+@import './utils/nullstyle';
+
+// базовые настройки
+@import './utils/common';
+
+// mixins
+@import './utils/mixins';
+
+//--Стили компонентов--
+
+// header
+@import './layout/header';
+// main page
+@import './layout/main.scss';
+// modeling
+@import './layout/modeling.scss';
+// scaning
+@import './layout/scanning.scss';
+// creating
+@import './layout/print.scss';
+// order
+@import './layout/order.scss';
+// contacts
+@import './layout/contacts.scss';
+// footer
+@import './layout/footer';
